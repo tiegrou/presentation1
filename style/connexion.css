@@ -1,0 +1,148 @@
+#gauche{
+
+    height: 100vh;
+    width: 40%;
+    float: left;
+    background-color: #16161D;
+
+}
+
+
+#droite{
+
+    height: 100vh;
+    width: 60%;
+    float: right;
+
+}
+
+#bck{
+    margin: 0;
+    background-image: url('../img/alex-kotliarskyi-QBpZGqEMsKg-unsplash.webp') ;
+    background-size: cover;
+    background-position: center;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover;
+    min-height: 100vh;
+    font-family: montserrat;
+    color: azure;
+    animation: loading-slide 12s linear infinite;
+    background-size: 103% ;
+    background-position-y: 85%!important;
+    animation-direction: alternate;
+    
+}
+@keyframes loading-slide {
+    from {
+      background-position: left;
+    }
+    to {
+      background-position: right;
+    }
+  }
+  
+input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+background-color: #3a86ff;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+border-radius: 15px;
+}
+input[type=submit]:hover {
+background-color: white;
+color: #3a86ff;
+transition-duration: 0.2s;
+border-radius: 15px;
+}
+
+h1{
+text-align: center;
+}
+
+#deg{
+
+    margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%);
+    padding: 0 15%;
+    
+}
+
+#droite{
+    background: rgb(22,22,29);
+background: linear-gradient(90deg, rgba(22,22,29,1) 0%, rgba(255,255,255,0) 50%);
+}
+
+.menu{
+    text-decoration: none;
+    color: aliceblue;
+    list-style-type: none;
+    padding: 0; margin: 0;
+    width: 120px;
+    display: right;
+
+}
+
+ul{
+    list-style-type:none;
+    color: azure;
+    display: flex;
+    padding: 7px;   
+    text-decoration: none; 
+}
+
+nav{
+    display: inline-block;
+}
+
+ul li a {
+    display:block;
+    float:left;   
+    width:100px;
+    color:rgb(255, 255, 255);
+    text-decoration:none !important;
+    text-align:center;
+}
+
+a:hover{
+    color: #3a86ff !important;
+    transition-duration: 0.1s;
+}
+
+
+
+li {
+    margin-top: 7px;
+}
+
+.menu{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu ::after{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#menu{
+    margin: 7px;
+}
+
+
+#mdp{
+    color: aliceblue;
+}

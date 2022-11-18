@@ -1,0 +1,88 @@
+
+body{
+    background: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    font-family: montserrat;
+
+    
+}
+#contient{
+    width:700px;
+    margin:0 auto;
+    margin-top:10%;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 15px;
+    display: flex;
+}
+/* Bordered form */
+#connexion {
+    padding: 20px;
+    border: 1px solid #f1f1f1;
+
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #3a86ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #3a86ff;
+    
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+#formulaire{
+    float: right;
+    width:50%;
+}
+#text{
+    float: right;
+    width: 50%;
+    border-left: 2px solid black;
+    height: 80%;
+}
+
+#gauche{
+
+    height: 100vh;
+    width: 40%;
+    float: left;
+    color: #000;
+
+}
+
+#droite{
+
+    height: 100vh;
+    width: 60%;
+    float: right;
+
+}
+
+#bck{
+    background-image: url('paladini-mauro-zp6zdiiO7XY-unsplash.jpg') ;
+    background-size: cover;
+}
